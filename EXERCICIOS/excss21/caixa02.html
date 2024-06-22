@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>group tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(85, 255, 93);
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(255, 123, 0);
+            color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+                header > h1 {
+            margin: 10px;
+        }
+        
+        nav {
+            background-color: rgb(165, 100, 2);
+            margin: 0px;
+            height: 35px;
+            align-content: center;
+            box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.486);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+            font-weight: bold;
+            
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: rgb(8, 253, 0);
+            font-weight: bold;
+        }
+        main {
+            background-color: rgb(241, 160, 84);
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        article {
+            background-color: rgb(253, 201, 151);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgba(255, 124, 1, 0.596)
+        }
+        footer {
+            background-color: rgb(32, 32, 32);
+            color: white;
+            text-align: center; 
+            margin: 0px;
+            height: 100px;
+            align-content: center;         
+        }
+        footer > p {
+            text-align: center;
+            align-content: center;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        <h1>Meu Site</h1>
+        <Nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </Nav>
+    </Header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias Sobre Apex Legends</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quia, libero ratione fugiat dicta fuga. Accusamus, natus, quae corporis qui, repudiandae quos soluta inventore architecto dolorum explicabo error modi omnis?</p>
+                <aside>
+                    <p>Artigo escrito por Amanda Oliver</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Amanda Oliver <br>
+        Todos os Direitos Reservados</p>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body> 
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu proprio servidor.</p>
+    <!--
+        HOSPEDANDO 1 FORMATO DE VIDEO
+        <video src="midia/gameplay.mp4" width="500" controls></video>
+    -->
+    <!--HOSPEDANDO VARIOS FORMATOS DE VIDEO-->
+    <video width="560" poster="imagens/Para-Thunbnail.png" controls autoplay loop>
+        <source src="midia/gameplay.mp4" type="video/mp4">
+        <source src="midia/gameplay2.webm" type="video/mp4">
+        <p>Seu navegador não suporta esse formato de video</p>
+    </video>
+  <h1>Inserindo videos do YouTube</h1>
+  <p>este video esta incorporado diretamente do meu canal do YouTube</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jXm3zto0Lwg?si=Z9JdotxXlJ4zeUOk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1>Inserindo vídeo do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/53263948?h=db558a51c0&loop=1&color=ff0179&title=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+
+
+</body>
+</html>
